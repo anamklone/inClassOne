@@ -1,3 +1,68 @@
-body, html {
-  font-size: 12px;
+html {
+  font-size: 73%;
+  font-family: "Calibri", sans-serif;
+}
+
+.logo {
+  position: relative;
+  left: 25px;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.header-text {
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.paragraph-text {
+  color: #00362D;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  text-align: center;
+  background-color: #43877C;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:active, a:visited {
+  color: black;
+}
+
+nav ul li a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+p a, a:active, a:visited {
+  text-decoration: none;
+}
+
+p a:hover {
+  color: #6CA299;
+}
+
+#clear-float {
+  clear: left;
+}
+
+footer {
+  background-color: #43877C;
+  margin: 5px;
+  padding: 5px;
 }
